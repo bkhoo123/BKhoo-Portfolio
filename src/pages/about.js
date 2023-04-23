@@ -63,7 +63,7 @@ export default function About() {
                 </div>
                 <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light ">   
                 <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
-                        <Image src={Profile} className="w-full h-auto rounded-2xl" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" />
+                        <Image src={Profile} className="w-full h-auto rounded-2xl" priority sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" alt="This is the bug" />
                 </div>
 
                 <div className="col-span-2 flex flex-col items-end justify-between">

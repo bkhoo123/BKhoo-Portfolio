@@ -4,7 +4,7 @@ dotenv.config();
 
 const notion = new Client({ auth: process.env.NOTION_API_KEY });
 
-export default async (req, res) => {
+const handler =  async (req, res) => {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
     const databaseId = '457c2d79c33c42809e50cb05693c5666';
@@ -50,3 +50,5 @@ export default async (req, res) => {
     res.status(405).json({ message: 'Method not allowed' });
   }
 };
+
+export default handler
