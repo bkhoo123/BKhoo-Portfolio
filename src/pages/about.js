@@ -53,9 +53,9 @@ export default function About() {
                     <p className="font-medium"> 
                     Hello! I&apos;m Brian, a versatile full-stack web and app developer with a passion for crafting stunning web applications and intuitive user interfaces. Driven by innovation, I&apos;m constantly seeking new ways to transform my clients' visions into reality.
                     </p>
-
                     <p className="font-medium my-4"> 
-                    I firmly believe that software has the potential to address and efficiently solve our clients&apos; challenges by creating intuitive and delightful user experiences. To me, design is more than just aesthetics; itI&apos;ms about streamlining the user experience and making it as seamless as possible. I am dedicated to harnessing the power of software to maximize efficiency and bridge the gap between technology and its users.</p>
+                    I firmly believe that software has the potential to address and efficiently solve our clients&apos; challenges by creating intuitive and delightful user experiences. To me, design is more than just aesthetics; it&apos;s about streamlining the user experience and making it as seamless as possible. I am dedicated to harnessing the power of software to maximize efficiency and bridge the gap between technology and its users.</p>
+
 
                     <p className="font-medium"> 
                     Whether I&apos;m developing a website, mobile app, or any other digital product, I bring my unwavering commitment to design excellence and user-centric thinking to every project I undertake. I eagerly anticipate the opportunity to apply my skills and enthusiasm to your next venture.
