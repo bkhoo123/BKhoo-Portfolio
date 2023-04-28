@@ -110,10 +110,10 @@ export default function Projects() {
                         <FeaturedProject 
                             type="A place to host your Homes (Airbnb Clone)"
                             title="AirBK"
-                            summary="Experience paper-trading like never before with our Robinhood clone - featuring real-time stock data, visually engaging data visualizations, and a context-aware chatbot for seamless support."
+                            summary="A place to host your homes, book them, and enjoy vacation time designed with Airbnb in mind"
                             img={Airbnb}
-                            link="https://bootcampbrokers.onrender.com/"
-                            github="https://github.com/Marcus-Kim/Bootcamp-Brokers"
+                            link="https://airbnb-re-done.vercel.app/"
+                            github="https://github.com/bkhoo123/AirbnbReDone"
                         />
                     </div>
 
