@@ -9,6 +9,7 @@ import Aidea from "../../public/images/projects/aidea.png"
 import FinanceProject from "../../public/images/projects/bootcamp.jpg"
 import Airbnb from "../../public/images/projects/Airbnb_Redone.png"
 import TransitionEffect from '@/components/TransitionEffect'
+import GPT4 from "../../public/images/projects/aitools.png"
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
     return (
@@ -116,6 +117,28 @@ export default function Projects() {
                             github="https://github.com/bkhoo123/AirbnbReDone"
                         />
                     </div>
+
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Article / Journal Summarizer Only Needs URL"
+                            title="GPT-4 Summarizer"
+                            summary="Have you ever wanted to just only input your URL and get a summary of the content of that webpage. Look no further than this web application that can do that for you. All you have to do is enter your URL and it will summarize the page for you."
+                            img={GPT4}
+                            link="https://ai-workflow-tools.vercel.app/"
+                            github="https://github.com/bkhoo123/GPT4-Tool"
+                        />
+                    </div>
+
+                    {/* <div className="col-span-12">
+                        <FeaturedProject 
+                            type="A Roasting Marshmallow Board Game"
+                            title="Marshmallow Game"
+                            summary="Come challenge your friends and foes alike for a marshmallow like board game"
+                            img={Airbnb}
+                            link="https://airbnb-re-done.vercel.app/"
+                            github="https://github.com/bkhoo123/AirbnbReDone"
+                        />
+                    </div> */}
 
                 </div>
             </Layout>
