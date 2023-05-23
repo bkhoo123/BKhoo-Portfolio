@@ -26,6 +26,14 @@ module.exports = {
         circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px,#f5f5f5 100px);'
       }
     },
+    screens: {
+      "2xl": {max: "1535px"},
+      "xl": {max: "1279px"},
+      "lg": {max: "1023px"},
+      "md": {max: "767px"},
+      "sm": {max: "639px"},
+      "xs": {max: "479px"},
+    },
   },
   plugins: [],
 }
