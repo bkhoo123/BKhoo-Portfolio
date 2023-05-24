@@ -21,12 +21,16 @@ const CustomLink=({href, title, className=""}) => {
     )
 }
 
-const CustomMobileLink=({href, title, className=""}) => {
+const CustomMobileLink=({href, title, className="", toggle}) => {
     const router = useRouter();
 
+    const handleClick = () => {
+        toggle()
+        router.push(href)
+    }
 
     return (
-        <button href={href} className={`${className} relative group`}>
+        <button href={href} onClick={handleClick} className={`${className} relative group`}>
             {title}
 
             <span className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5 
@@ -86,9 +90,9 @@ const NavBar = () => {
         bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md py-32
         ">
             <nav className="flex flex-col items-center justify-center">
-                <CustomLink href="/" title="Home" className="mr-4" />
-                <CustomLink href="/about" title="Experience" className="mx-4"  />
-                <CustomLink href="/projects" title="Projects" className="mx-4"   />
+                <CustomMobileLink href="/" title="Home" className="mr-4" toggle={handleClick} />
+                <CustomMobileLink href="/about" title="Experience" className="mx-4" toggle={handleClick} />
+                <CustomMobileLink href="/projects" title="Projects" className="mx-4" toggle={handleClick}  />
                 {/* <CustomLink href="/articles" title="Articles" className="ml-4"   /> */}
             </nav>
             
