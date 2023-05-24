@@ -6,8 +6,10 @@ const Skill = ({name, x, y}) => {
 
 
   return (
-    <motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute "
-      whileHover={{scale:1.10}}
+    <motion.div className="flex items-center justify-center rounded-full font-semibold bg-dark text-light 
+    py-3 px-6 shadow-dark cursor-pointer absolute dark:text-dark dark:bg-light 
+    lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:font-bold"
+      whileHover={{scale:1.05}}
       initial={{x:0, y:0}}
       whileInView={{x:x, y:y}}
       transition={{duration: 1.2}}
@@ -20,8 +22,10 @@ const Skill = ({name, x, y}) => {
 export default function Skills() {
   return (
     <>
-     <h2 className="font-bold text-8xl mt-64 w-full text-center">Skills</h2>
-     <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight">
+     <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32">Skills</h2>
+     <div className="w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight dark:bg-circularDark
+     lg:h-[80vh] sm:h-[60vh] xs:h-[50vh]">
+
 
           <Skill name="Web Dev" x="0" y="0" />
           <Skill name="CSS" x="-5vw" y="-10vw" />
