@@ -44,7 +44,7 @@ export default function About() {
         </Head>
 
         <TransitionEffect />
-        <main className="flex w-full flex-col items-center justify-center dark:text-light">
+        <main className="flex w-full flex-col items-center justify-center ">
             <Layout className="pt-16">
             <AnimatedText text="Passion Fuels Purpose! " className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
             <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -61,7 +61,7 @@ export default function About() {
                     Whether Im developing a website, mobile app, or any other digital product, I bring my unwavering commitment to design excellence and user-centric thinking to every project I undertake. I eagerly anticipate the opportunity to apply my skills and enthusiasm to your next venture.
                     </p>
                 </div>
-                <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">   
+                <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8  dark:border-light xl:col-span-4 md:order-1 md:col-span-8">   
                 <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark" />
                         <Image src={Profile} 
                         className="w-full h-auto rounded-2xl" 
