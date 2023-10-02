@@ -98,7 +98,7 @@ export default function Projects() {
                     <div className="col-span-12">
                         <FeaturedProject 
                         type="Artificial Intelligence Project"
-                        title="AIdea"
+                        title="AI Workspace"
                         summary="A Notion-like application that empowers users to seamlessly take notes, efficiently organize their projects, and optimize their workflow with the help of Artificial Intelligence. With intelligent tagging, task management, and personalized suggestions, our app streamlines the user's workflow and boosts productivity."
                         img={Aidea}
                         link="https://idea-fusion.onrender.com/"
@@ -120,7 +120,7 @@ export default function Projects() {
                     <div className="col-span-12">
                         <FeaturedProject 
                             type="A place to host your Homes (Airbnb Clone)"
-                            title="AirBK"
+                            title="Air Space"
                             summary="A place to host your homes, book them, and enjoy vacation time designed with Airbnb in mind"
                             img={Airbnb}
                             link="https://airbnb-re-done.vercel.app/"

@@ -78,19 +78,19 @@ export default function Home() {
                 </p>
 
                 <div className="flex items-center self-start mt-2 lg:self-center">
-                  <Link href="/Resume.pdf" 
+                  <Link href="https://docs.google.com/document/d/15Hhciut1AeMZb-nVeMQSjAPnQjbES16LSVnkSwRqkJs/edit?usp=sharing" 
                   target="_blank"
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
                   md:p-2 md:px-4 md:text-base
                   "
                   download={true}
                   >Resume <LinkArrow className="w-6 ml-1" /> </Link>
-                  <button  onClick={handleModal} className="ml-4 text-lg font-medium capitalize text-dark underline  md:text-base">Contact Me</button>
+                  <button  onClick={handleModal} className="ml-4 text-lg font-medium capitalize text-dark underline md:text-base">Contact Me</button>
                 </div>
 
                 
 
-                <form onSubmit={handleSubmit} onMouseLeave={handleModal} className={modal ? "p-12 absolute top-[30%] right-[20%] z-100 h-1/3 w-1/2 bg-cyan-800 rounded-xl" : "hidden"}>
+                <form onSubmit={handleSubmit}  className={modal ? "p-12 absolute top-[30%] right-[20%] z-100 h-1/3 w-1/2 bg-cyan-800 rounded-xl" : "hidden"}>
                   <label className="flex flex-col gap-y-2 text-light">
                     Your Name
                     <input 
@@ -125,8 +125,9 @@ export default function Home() {
                       onChange={(e) => setMessage(e.target.value)}
                     />
                   </label>
-                  <div className="flex justify-center items-center pt-5">
+                  <div className="flex justify-center items-center pt-5 gap-6">
                   <button type="submit" className="border-2 border-light p-2 rounded-md text-light hover:bg-dark">Submit</button>
+                  <button onClick={handleModal} className="border-2 border-light p-2 rounded-md text-light hover:bg-dark">Close</button>
                   </div>
                 </form>
 
