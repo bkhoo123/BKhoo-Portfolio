@@ -51,7 +51,7 @@ export default function About() {
                 <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
                     <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">About Me</h2>
                     <p className="font-medium"> 
-                    Hello! Im Brian, a versatile full-stack web and app developer with a passion for crafting stunning web applications and intuitive user interfaces. Driven by innovation, Im constantly seeking new ways to transform my clients visions into reality.
+                    Hello! Im Brian, a versatile full-stack web, app, and mobile app developer with a passion for crafting stunning web applications and intuitive user interfaces. Driven by innovation, Im constantly seeking new ways to transform my clients visions into reality.
                     </p>
                     <p className="font-medium my-4"> 
                     I firmly believe that software has the potential to address and efficiently solve our clients challenges by creating intuitive and delightful user experiences. To me, design is more than just aesthetics; its about streamlining the user experience and making it as seamless as possible. I am dedicated to harnessing the power of software to maximize efficiency and bridge the gap between technology and its users.</p>
@@ -97,8 +97,9 @@ export default function About() {
                     
 
             </div>
-            <Skills />
             <Experience />
+            <Skills />
+            
             <Education />
             </Layout>
         </main>

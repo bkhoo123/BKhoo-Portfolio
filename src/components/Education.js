@@ -56,22 +56,17 @@ export default function Education() {
 
                 <Details 
                     type="Software Engineering Full-Stack Immersion Program"
-                    time="2022-2023"
+                    // time="2022-2023"
                     place="App Academy"
                     info="Completed a full-time software engineering curriculum, including training in Python, Javascript, and SQL. Developed web applications using frameworks like Express, React, and Redux. Learned best practices for software engineering, including Agile methodologies, test-driven development, and Git version control."
                 />
 
                 <Details 
                     type="Bachelor of Science in Finance"
-                    time="2016-2020"
+                    // time="2016-2020"
                     place="Southern New Hampshire University"
                     info="Studied financial modeling, investment strategies, and portfolio management. Applied financial and market theories to make informed investment decisions. Developed strong analytical skills and gained practical experience in conducting market research, evaluating financial statements, and forecasting market trends."
                 />
-
-                
-
-
-
             </ul>
         </div>
 

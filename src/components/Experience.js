@@ -52,40 +52,62 @@ export default function Experience() {
             md:w-[2px] md:left-[30px] xs:left-[20px] 
             " />
 
-            <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-
+            <ul className="w-full flex flex-col items-start justify-between ml-4">
+{/* 
                 <Details 
                 position="Full-Stack Software Engineer Student" 
                 company="App Academy" 
                 time="September 2022 - March 2022" 
                 address="San Francisco, CA"
                 work="As a software engineering student, I've developed full-stack projects using Javascript, Python, React, Redux, and SQL. I'm well-versed in agile methodologies and test-driven development, and have honed my teamwork skills through collaborative work with my peers."
+                /> */}
+
+                <Details 
+                    position="Software Engineer - Part Time" 
+                    company="Rubbish" 
+                    time="April 2023 - Current" 
+                    address="San Francisco, CA"
+                    work="Developed a geolocating data visualization tool utilizing ESRI, empowering community members to report litter, plastic, and graffiti incidents to the appropriate authorities and reducing litter in communities by 21%.
+                    Extensively tested and documented API integration, allowing users to use Rubbish Data with mapping interfaces. 
+                    Crafted context-rich chatbots with the context of over 1000 reports, enabling users to make intuitive queries for instant responses. Utilizing Open AI’s Chat GPT API and large context windows and vector databases.
+                    "
                 />
 
                 <Details 
-                position="Business Owner" 
-                company="eCommerce Business" 
-                time="February 2016 - November 2022" 
-                address="San Francisco, CA"
-                work="Drove revenue growth through process improvements and enhanced operational efficiency. Coordinated activities across departments, including production, pricing, sales, and distribution, to achieve optimal outcomes. Established a strong business foundation with technical skills and best practices for sustainable daily operations."
+                    position="Full Stack Web Developer" 
+                    company="Freelance" 
+                    time="May 2023 - Current" 
+                    address="San Francisco, CA"
+                    work="Custom Website Development: Crafted unique websites tailored to meet individual client needs and optimizing SEO.
+                    Client Collaboration: Developed strong rapport with clients ensuring their vision and requirements are met in the final product 
+                    Responsive Design: Implemented responsive design principles to ensure optimal viewing experience across various devices
+                    "
+                />
+
+                <Details 
+                    position="Business Owner" 
+                    company="eCommerce Business" 
+                    time="February 2016 - November 2022" 
+                    address="San Francisco, CA"
+                    work="Drove revenue growth through process improvements and enhanced operational efficiency. Coordinated activities across departments, including production, pricing, sales, and distribution, to achieve optimal outcomes. Established a strong business foundation with technical skills and best practices for sustainable daily operations."
                 />
 
                 
                 <Details 
-                position="Lead Operations" 
-                company="JP Morgan Chase" 
-                time="August 2021 - June 2022" 
-                address="San Francisco, CA"
-                work="Led day-to-day operations, ensuring smooth efficiency. Conducted audits of cash entities, improving compliance and reducing risk. Managed staff schedules and delegated duties for productivity and customer satisfaction. Adhered to high quality standards, fostering a culture of excellence with the team."
+                    position="Lead Operations" 
+                    company="JP Morgan Chase" 
+                    time="August 2021 - June 2022" 
+                    address="San Francisco, CA"
+                    work="Led day-to-day operations, ensuring smooth efficiency. Conducted audits of cash entities, improving compliance and reducing risk. Managed staff schedules and delegated duties for productivity and customer satisfaction. Adhered to high quality standards, fostering a culture of excellence with the team."
                 />
 
                 
                 <Details 
-                position="Production Lead" 
-                company="Charlotte Russe" 
-                time="July 2015 - October 2017" 
-                address="San Francisco, CA"
-                work="Managed inventory schedules to meet budget and delivery requirements. Conducted quality assurance tests to ensure high-quality products. Coordinated shipments and monitored orders to prevent delays or disruptions."
+                    position="Production Lead" 
+                    company="Charlotte Russe" 
+                    time="July 2015 - October 2017" 
+                    address="San Francisco, CA"
+                    work="Managed inventory schedules to meet budget and delivery requirements. Conducted quality assurance tests to ensure high-quality products. Coordinated shipments and monitored orders to prevent delays or disruptions."
                 />
 
 

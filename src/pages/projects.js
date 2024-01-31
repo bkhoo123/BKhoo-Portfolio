@@ -9,8 +9,9 @@ import Aidea from "../../public/images/projects/aidea.png"
 import FinanceProject from "../../public/images/projects/bootcamp.jpg"
 import Airbnb from "../../public/images/projects/Airbnb_Redone.png"
 import TransitionEffect from '@/components/TransitionEffect'
-import GPT4 from "../../public/images/projects/aitools.png"
-import Marshmallow from "../../public/images/projects/Marshmallow.png"
+import RecycleGPT from "../../public/images/projects/RecycleGPT.png"
+import Summarizer from "../../public/images/projects/Summarizer.png"
+import PriceWise from "../../public/images/projects/PriceWise.png"
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
     return (
@@ -90,16 +91,91 @@ export default function Projects() {
         
         <main className=' w-full mb-16 flex flex-col items-center justify-center '>
             <Layout className="pt-16">
-                <AnimatedText 
-                text="Imagination Trumps Knowledge!" 
-                className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
-                />
-                <div className="grid grid-cols-12 gap-24 pt-5 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+                <AnimatedText text="Imagination Trumps Knowledge!" />
+
+                <div className="grid grid-cols-12 gap-24 pt-5">
+
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Help San Franciscans Recycle their waste"
+                            title="RecycleGPT Web App"
+                            summary="Built at Accelerate Hackathon at AGI House. 
+                            Utilizing ChatGPT 4 Vision API and ElevenLabs Text to Speech. 
+                            A Web application that helps users sort through their trash so that they can build better recycling habits. 
+                            Take snapshots of your trash and the vision API will tell you which bin it goes to depending on your location."
+                            img={RecycleGPT}
+                            
+                            link="https://vercel.com/bkhoo123/recycle-gpt-web"
+                            github="https://github.com/bkhoo123/RecycleGPT-Web"
+                        />
+                    </div>
+
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Price Web Scraping / Tracking for eCommerce Sites"
+                            title="PriceWise"
+                            summary="
+                            Smart Shopping starts here: Unleash the power of PriceWise. Powerful, self-serve product and growth analytics to help you convert, engage, and retain more. 
+                            Tracks prices on eCommerce websites such as Amazon, eBay, etc with just a URL.
+                            "
+                            img={PriceWise}
+                            link="https://price-web-scraper.vercel.app/"
+                            github="https://github.com/bkhoo123/Web-Scraper"
+                        />
+                    </div>
+
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Price Web Scraping / Tracking for eCommerce Sites"
+                            title="PriceWise"
+                            summary="
+                            Smart Shopping starts here: Unleash the power of PriceWise. Powerful, self-serve product and growth analytics to help you convert, engage, and retain more. 
+                            Tracks prices on eCommerce websites such as Amazon, eBay, etc with just a URL.
+                            "
+                            img={PriceWise}
+                            link="https://price-web-scraper.vercel.app/"
+                            github="https://github.com/bkhoo123/Web-Scraper"
+                        />
+                    </div>
+
+                    
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Price Web Scraping / Tracking for eCommerce Sites"
+                            title="PriceWise"
+                            summary="
+                            Smart Shopping starts here: Unleash the power of PriceWise. Powerful, self-serve product and growth analytics to help you convert, engage, and retain more. 
+                            Tracks prices on eCommerce websites such as Amazon, eBay, etc with just a URL.
+                            "
+                            img={PriceWise}
+                            link="https://price-web-scraper.vercel.app/"
+                            github="https://github.com/bkhoo123/Web-Scraper"
+                        />
+                    </div>
+
+                    <div className="col-span-12">
+                        <FeaturedProject 
+                            type="Article / Journal Summarizer Only Needs URL"
+                            title="GPT-4 Summarizer"
+                            summary="Have you ever wanted to just only input your URL and get a summary of the content of that webpage. 
+                            Look no further than this web application that can do that for you. 
+                            All you have to do is enter your URL and it will summarize the page for you.
+                            "
+                            img={Summarizer}
+                            link="https://ai-workflow-tools.vercel.app/"
+                            github="https://github.com/bkhoo123/GPT4-Tool"
+                        />
+                    </div>
+
                     <div className="col-span-12">
                         <FeaturedProject 
                         type="Artificial Intelligence Project"
-                        title="AI Workspace"
-                        summary="A Notion-like application that empowers users to seamlessly take notes, efficiently organize their projects, and optimize their workflow with the help of Artificial Intelligence. With intelligent tagging, task management, and personalized suggestions, our app streamlines the user's workflow and boosts productivity."
+                        title="AIdea"
+                        summary="Devised an AI-driven note-taking and workspace application, leveraging the capabilities of AI for enhanced productivity.
+                        Leveraged Chat GPT 3.5/4 and backend prompt engineering to create features which include note translation, summary creation, journal topic generation, blog post drafting, code writing, and more.
+                        With intelligent tagging, task management, and personalized suggestions, our app streamlines the user's workflow and boosts productivity.
+                        Created intuitive UI/UX design, dash boards, and efficient note-taking features allowing users to flow through the website.
+                        "
                         img={Aidea}
                         link="https://idea-fusion.onrender.com/"
                         github="https://github.com/bkhoo123/Idea-Fusion"

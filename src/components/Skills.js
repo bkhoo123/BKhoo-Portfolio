@@ -32,7 +32,7 @@ export default function Skills() {
           <Skill name="HTML" x="-20vw" y="-4vw" />
           <Skill name="ReactJS" x="0vw" y="11vw" />
           <Skill name="ExpressJS" x="15vw" y="-12vw" />
-          <Skill name="NextJS" x="-20vw" y="-15vw" />
+          <Skill name="Next JS" x="-20vw" y="-15vw" />
           <Skill name="Web Design" x="0vw" y="-20vw" />
           <Skill name="Tailwind CSS" x="18vw" y="18vw" />
           <Skill name="MongoDB" x="-20vw" y="15vw" />
