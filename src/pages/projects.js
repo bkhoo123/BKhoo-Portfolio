@@ -204,17 +204,6 @@ export default function Projects() {
                         />
                     </div>
 
-                    <div className="col-span-12">
-                        <FeaturedProject 
-                            type="A Marshmallow Roasting Game to play with friends and family"
-                            title="Marshmallow Game"
-                            summary="Come challenge your friends and foes alike for a marshmallow like board game"
-                            img={Marshmallow}
-                            link="https://www.otoshigames.com/"
-                            github="https://github.com/bkhoo123/Marsh-Vercel"
-                        />
-                    </div>
-
                 </div>
             </Layout>
         </main>
