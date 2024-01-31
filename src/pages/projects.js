@@ -206,17 +206,6 @@ export default function Projects() {
 
                     <div className="col-span-12">
                         <FeaturedProject 
-                            type="Article / Journal Summarizer Only Needs URL"
-                            title="GPT-4 Summarizer"
-                            summary="Have you ever wanted to just only input your URL and get a summary of the content of that webpage. Look no further than this web application that can do that for you. All you have to do is enter your URL and it will summarize the page for you."
-                            img={GPT4}
-                            link="https://ai-workflow-tools.vercel.app/"
-                            github="https://github.com/bkhoo123/GPT4-Tool"
-                        />
-                    </div>
-
-                    <div className="col-span-12">
-                        <FeaturedProject 
                             type="A Marshmallow Roasting Game to play with friends and family"
                             title="Marshmallow Game"
                             summary="Come challenge your friends and foes alike for a marshmallow like board game"
