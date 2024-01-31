@@ -110,7 +110,7 @@ export default function Projects() {
                         />
                     </div>
 
-                    <div className="col-span-12">
+                    {/* <div className="col-span-12">
                         <FeaturedProject 
                             type="Price Web Scraping / Tracking for eCommerce Sites"
                             title="PriceWise"
@@ -136,7 +136,7 @@ export default function Projects() {
                             link="https://price-web-scraper.vercel.app/"
                             github="https://github.com/bkhoo123/Web-Scraper"
                         />
-                    </div>
+                    </div> */}
 
                     
                     <div className="col-span-12">
